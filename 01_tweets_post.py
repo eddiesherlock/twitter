@@ -1,15 +1,15 @@
 import tweepy
 from tweepy import OAuthHandler
-import credentials
+import auth_credentials
 
 #帳號密碼處理
-auth = OAuthHandler(credentials.CONSUMER_KEY, credentials.CONSUMER_SECRET)
-auth.set_access_token(credentials.ACCESS_TOKEN, credentials.ACCESS_TOKEN_SECRET)
+auth = OAuthHandler(auth_credentials.CONSUMER_KEY, auth_credentials.CONSUMER_SECRET)
+auth.set_access_token(auth_credentials.ACCESS_TOKEN, auth_credentials.ACCESS_TOKEN_SECRET)
 api = tweepy.API(auth)
 
 
 # 利用tweepy發文
-api.update_status("我是劉碩傑*2222")
+api.update_status("")
 print("done!!")
 
 # # Get the User object for twitter...

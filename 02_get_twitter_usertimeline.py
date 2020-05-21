@@ -2,22 +2,23 @@ import tweepy
 from tweepy import OAuthHandler
 import pandas as pd
 from datetime import datetime
-import credentials
+import auth_credentials
 # import  pymysql
 import re
 import csv
 import json
 
 # Twitter APIpip
-auth = OAuthHandler(credentials.CONSUMER_KEY, credentials.CONSUMER_SECRET)
-auth.set_access_token(credentials.ACCESS_TOKEN, credentials.ACCESS_TOKEN_SECRET)
+auth = OAuthHandler(auth_credentials.CONSUMER_KEY, auth_credentials.CONSUMER_SECRET)
+auth.set_access_token(auth_credentials.ACCESS_TOKEN, auth_credentials.ACCESS_TOKEN_SECRET)
 api = tweepy.API(auth)
 
 
 # 帳號=@realDonaldTrump, extended模式才能抓full_text
-status = api.user_timeline('realDonaldTrump', tweet_mode="extended")
+status = api.user_timeline('RobertDowneyJr', tweet_mode="extended")
 # print(status)
-data=status[2]._json
+
+data=status[0]._json
 abc = json.dumps(data,indent = 2)
 print(abc)
 

@@ -1,6 +1,7 @@
 import os
 import tweepy as tw
 import pandas as pd
+## Tutorial url ="https://www.earthdatascience.org/courses/use-data-open-source-python/intro-to-apis/twitter-data-in-python/"
 
 ACCESS_TOKEN = '1258014133355601921-SrqKg58eix8S498iIsRUX67UOXe0tl'
 ACCESS_TOKEN_SECRET = 'iVHGL1LhXCtjpB1AzwFa2D9F1tnUcdurwbW1AvNo7Xlpi'
