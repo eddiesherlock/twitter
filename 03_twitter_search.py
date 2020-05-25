@@ -16,54 +16,54 @@ api = tw.API(auth, wait_on_rate_limit=True)
 # api.update_status("Look, I'm tweeting from #Python in my #earthanalytics class! @EarthLabCU")
 # Your tweet has been posted!
 
-search_words = "#wildfires"
-date_since = "2020-05-02"
+search_words = "#MLB"
+# date_since = "2018-04-02"
+#
+# tweets = tw.Cursor(api.search,
+#               q=search_words,
+#               lang="en",
+#               since=date_since).items(5)
+# # print(tweets)
+#
+# # Collect tweets
+# tweets = tw.Cursor(api.search,
+#               q=search_words,
+#               lang="en",
+#               since=date_since).items(5)
+#
+# # Iterate and print tweets
+# # for tweet in tweets:
+# #     print(tweet.text)
 
-tweets = tw.Cursor(api.search,
-              q=search_words,
-              lang="en",
-              since=date_since).items(5)
-# print(tweets)
-
-# Collect tweets
-tweets = tw.Cursor(api.search,
-              q=search_words,
-              lang="en",
-              since=date_since).items(5)
-
-# Iterate and print tweets
-# for tweet in tweets:
-#     print(tweet.text)
-# Collect tweets
-tweets = tw.Cursor(api.search,
-                       q=search_words,
-                       lang="en",
-                       since=date_since).items(5)
-
-# Collect a list of tweets
-abc = [tweet.text for tweet in tweets]
-print(abc)
+# # Collect tweets
+# tweets = tw.Cursor(api.search,
+#                        q=search_words,
+#                        lang="en",
+#                        since='2018-04-02').items(5)
+# # Collect a list of tweets
+# abc = [tweet.text for tweet in tweets]
+# print(abc)
 
 new_search = search_words + " -filter:retweets"
 print(new_search)
 tweets = tw.Cursor(api.search,
                        q=new_search,
                        lang="en",
-                       since=date_since).items(5)
+                       since='2020-05-18').items(1000)
 
-users_locs = [[tweet.user.screen_name, tweet.user.location] for tweet in tweets]
-print(users_locs)
+users_locs = [[tweet.user.screen_name, tweet.user.location,tweet.created_at] for tweet in tweets]
+# print(users_locs)
 
 tweet_text = pd.DataFrame(data=users_locs,
-                    columns=['user', "location"])
+                    columns=['user', "location","date"])
 print(tweet_text)
 
-new_search = "climate+change -filter:retweets"
+# new_search = "climate+change -filter:retweets"
 
-tweets = tw.Cursor(api.search,
-                   q=new_search,
-                   lang="en",
-                   since='2020-05-12').items(1000)
-
-all_tweets = [tweet.text for tweet in tweets]
-print(all_tweets)
+# tweets = tw.Cursor(api.search,
+#                    q=new_search,
+#                    lang="en",
+#                    since='2018-04-02').items(5)
+#
+# all_tweets = [tweet.text for tweet in tweets]
+# print(all_tweets)
