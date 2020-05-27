@@ -63,8 +63,13 @@
       <recent name="C:\Users\Big data\Documents\GitHub\twitter" />
     </key>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.twint_test_02">
     <configuration name="02_get_twitter_usertimeline (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+  <component name="RunManager" selected="Python.craw_id">
+    <configuration name="01_tweets_post" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> aab84c1190649b4c3b7566cd71532f589fac4cdc
       <module name="twitter" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -106,7 +111,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="twint_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="03_twitter_search" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> aab84c1190649b4c3b7566cd71532f589fac4cdc
       <module name="twitter" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -118,7 +127,11 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twint_test.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/03_twitter_search.py" />
+>>>>>>> aab84c1190649b4c3b7566cd71532f589fac4cdc
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,7 +140,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="twint_test_01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="craw_id" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> aab84c1190649b4c3b7566cd71532f589fac4cdc
       <module name="twitter" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -139,7 +156,11 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="C:\Users\User\Documents\GitHub\twitter\twint_test_01.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/craw_id.py" />
+>>>>>>> aab84c1190649b4c3b7566cd71532f589fac4cdc
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,7 +169,11 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+<<<<<<< HEAD
     <configuration name="twint_test_02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+=======
+    <configuration name="test02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+>>>>>>> aab84c1190649b4c3b7566cd71532f589fac4cdc
       <module name="twitter" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -160,7 +185,11 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twint_test_02.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test02.py" />
+>>>>>>> aab84c1190649b4c3b7566cd71532f589fac4cdc
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -171,11 +200,19 @@
     </configuration>
     <recent_temporary>
       <list>
+<<<<<<< HEAD
         <item itemvalue="Python.twint_test_02" />
         <item itemvalue="Python.twint_test_01" />
         <item itemvalue="Python.02_get_twitter_usertimeline (1)" />
         <item itemvalue="Python.twint_test" />
         <item itemvalue="Python.twint" />
+=======
+        <item itemvalue="Python.craw_id" />
+        <item itemvalue="Python.02_get_twitter_usertimeline (1)" />
+        <item itemvalue="Python.test02" />
+        <item itemvalue="Python.03_twitter_search" />
+        <item itemvalue="Python.01_tweets_post" />
+>>>>>>> aab84c1190649b4c3b7566cd71532f589fac4cdc
       </list>
     </recent_temporary>
   </component>
@@ -209,6 +246,7 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="627" y="279" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590039470570" />
+<<<<<<< HEAD
     <state width="441" height="730" key="GridCell.Tab.0.bottom" timestamp="1590549327886">
       <screen x="0" y="0" width="3840" height="1160" />
     </state>
@@ -249,5 +287,43 @@
       <screen x="0" y="0" width="3840" height="1160" />
     </state>
     <state x="717" y="180" key="SettingsEditor/0.0.3840.1160@0.0.3840.1160" timestamp="1590502211244" />
+=======
+    <state width="871" height="590" key="GridCell.Tab.0.bottom" timestamp="1590404763368">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="871" height="590" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590404763368" />
+    <state width="795" height="994" key="GridCell.Tab.0.bottom/0.0.3840.1160@0.0.3840.1160" timestamp="1589342192049" />
+    <state width="871" height="590" key="GridCell.Tab.0.center" timestamp="1590404763368">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="871" height="590" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590404763368" />
+    <state width="795" height="994" key="GridCell.Tab.0.center/0.0.3840.1160@0.0.3840.1160" timestamp="1589342192049" />
+    <state width="871" height="590" key="GridCell.Tab.0.left" timestamp="1590404763368">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="871" height="590" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590404763368" />
+    <state width="795" height="994" key="GridCell.Tab.0.left/0.0.3840.1160@0.0.3840.1160" timestamp="1589342192048" />
+    <state width="871" height="590" key="GridCell.Tab.0.right" timestamp="1590404763368">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="871" height="590" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590404763368" />
+    <state width="795" height="994" key="GridCell.Tab.0.right/0.0.3840.1160@0.0.3840.1160" timestamp="1589342192049" />
+    <state width="877" height="857" key="GridCell.Tab.1.bottom" timestamp="1590404763334">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="877" height="857" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1590404763334" />
+    <state width="877" height="857" key="GridCell.Tab.1.center" timestamp="1590404763334">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="877" height="857" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1590404763334" />
+    <state width="877" height="857" key="GridCell.Tab.1.left" timestamp="1590404763334">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="877" height="857" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1590404763334" />
+    <state width="877" height="857" key="GridCell.Tab.1.right" timestamp="1590404763334">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="877" height="857" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1590404763334" />
+>>>>>>> aab84c1190649b4c3b7566cd71532f589fac4cdc
   </component>
 </project>
