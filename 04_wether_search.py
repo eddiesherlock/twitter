@@ -31,7 +31,7 @@ search_term = "#climate+change -filter:retweets"
 tweets = tw.Cursor(api.search,
                    q=search_term,
                    lang="en",
-                   since='2018-11-01').items(1000)
+                   since='2018-11-01').items(5)
 
 all_tweets = [tweet.text for tweet in tweets]
 
